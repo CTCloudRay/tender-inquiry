@@ -9,7 +9,7 @@
 #   docker build -t tender-inquiry .
 #   docker run -p 3001:3001 tender-inquiry
 
-FROM node:18-slim
+FROM node:20-slim
 
 # ========== 安裝 Chrome 與中文字體 ==========
 # Puppeteer 需要完整的 Chrome 瀏覽器才能正常運作
