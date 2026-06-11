@@ -236,7 +236,7 @@ async function searchTenders(keyword, startDate, endDate, onProgress = () => { }
                     for (const item of tenderItems) {
                         try {
                             const url = item.link;
-                            await new Promise(resolve => setTimeout(resolve, 20000));
+                            await new Promise(resolve => setTimeout(resolve, 360000));
                             // 1. 使用 await 等待資料抓取完成，並將結果存入變數 data
                             const data = await parseTenderDetail(url);
                             
